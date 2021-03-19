@@ -81,7 +81,7 @@ for i in range(img.size[0]):
             pixels[i, image_size_y - j - 1] = (0, 0, 0)
         else:
             pixels[i, image_size_y - j - 1] = (255 - diverge_num, 255 - diverge_num, 255 - diverge_num)
-            #pixels[i, image_size_y - j - 1] = (int(255 - diverge_num), 128, 128)
+            #pixels[i, image_size_y - j - 1] = (255 - diverge_num, 128, 128)
             #pixels[i, image_size_y - j - 1] = (255, 255, 255)
 
 # display bitmap image
