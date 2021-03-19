@@ -39,7 +39,7 @@ img = Image.new('RGB', (image_size_x, image_size_y), "white")
 pixels = img.load()
 
 # define complex plane boundary for image_size
-# these were determined with trial-and-error
+# these were determined by trial-and-error
 
 # good overview of Mandelbrot set
 x_range_min = -2
@@ -47,19 +47,7 @@ x_range_max = 1
 y_range_min = -1.5
 y_range_max = 1.5
 
-# overview seahorse
-#x_range_min = -1.0
-#x_range_max = -.5
-#y_range_min = 0
-#y_range_max = .5
-
-# zoomed-in seahorse
-#x_range_min = -.85
-#x_range_max = -.65
-#y_range_min = 0
-#y_range_max = .2
-
-# more zoomed-in seahorse
+# seahorse valley
 #x_range_min = -.778
 #x_range_max = -.738
 #y_range_min = .08
@@ -70,6 +58,12 @@ y_range_max = 1.5
 #x_range_max = -.742
 #y_range_min = .098
 #y_range_max = .107
+
+# one seahorse left side
+#x_range_min = -.773
+#x_range_max = -.764
+#y_range_min = .1015
+#y_range_max = .1105
 
 # determine amount of range each pixel represents
 x_delta = (x_range_max - x_range_min) / image_size_x
